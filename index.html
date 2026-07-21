@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notifiqo — Smart Notification Capture &amp; Backup</title>
+  <meta name="description" content="Notifiqo is a production-grade notification capture app with smart OTP detection, encrypted cloud backup, and productivity insights." />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="#top" class="brand">
+        <img src="assets/logo.png" alt="Notifiqo logo" />
+        <span>Notifiqo</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms</a></li>
+          <li><a href="#delete-account">Delete Account</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <img src="assets/logo.png" alt="Notifiqo" class="hero-logo" />
+        <h1>Never lose a notification again.</h1>
+        <p class="tagline">
+          Notifiqo is a production-grade notification capture app for Android — it intelligently
+          captures your system notifications, detects OTP codes automatically, backs everything up
+          securely to the cloud, and turns your notification history into useful insights.
+        </p>
+        <div class="hero-actions">
+          <a href="https://play.google.com/store/apps/details?id=com.tstationbd.notifiqo" class="btn btn-primary" target="_blank" rel="noopener">⬇️ Download Now</a>
+          <a href="#features" class="btn btn-outline">Explore Features</a>
+          <a href="#delete-account" class="btn btn-outline">Delete My Data</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2 class="section-title reveal">Built for real productivity</h2>
+        <p class="section-subtitle reveal">
+          Every feature in Notifiqo is designed around one goal: making sure the notifications that
+          matter are never missed, lost, or hard to find again.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="feature-icon">🔑</div>
+            <h3>Smart OTP Detection</h3>
+            <p>Automatically detects and extracts OTP codes from incoming notifications, so you can copy them in one tap instead of hunting through your notification shade.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">☁️</div>
+            <h3>Encrypted Cloud Backup</h3>
+            <p>Back up and restore your full notification history to Google Drive, encrypted before it ever leaves your device — with optional automatic daily, weekly, or monthly backups.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">📊</div>
+            <h3>Smart Insights &amp; Analytics</h3>
+            <p>A dashboard with activity heatmaps, focus scores, distraction tracking, and daily trends built from your own notification history.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">📁</div>
+            <h3>Notification Export</h3>
+            <p>Export your history as CSV, PDF, or a compressed ZIP archive whenever you need a portable copy of your records.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">⏰</div>
+            <h3>Reminders &amp; Scheduling</h3>
+            <p>Turn any captured notification into a scheduled reminder so nothing important slips through the cracks.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">🔗</div>
+            <h3>Looking Up (Shared Notifications)</h3>
+            <p>Securely share your notification history with another trusted user in real time, with full control to revoke access at any time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <div class="container">
+        <h2 class="section-title reveal">Privacy Policy</h2>
+        <p class="section-subtitle reveal">How we protect your data — the same policy shown inside the app.</p>
+
+        <div class="legal-block reveal">
+          <h3>1. Data Collection</h3>
+          <p>Notifiqo captures notification content (title, body, sender, and application name) to provide you with a searchable history. This data is primarily stored locally on your device.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>2. Media &amp; Attachments</h3>
+          <p>Images and file attachments (like PDFs) from notifications are stored strictly in your app's private internal storage. We do not upload these files to any external cloud storage or servers.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>3. Cloud Synchronization</h3>
+          <p>If you choose to enable Cloud Sync and sign in with Google, your notification text history is securely synced to Firebase Cloud Firestore. This allows you to access your history on other devices. You can disable this at any time in Settings.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>4. Sharing Features</h3>
+          <p>When you explicitly share your notifications with another user via the "Looking Up" feature, that user will be able to view your synced notification history in real-time. You maintain full control and can revoke access at any time.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>5. Data Security</h3>
+          <p>We use industry-standard encryption and Firebase security protocols to protect your synced data. Local data is protected by the Android operating system's app isolation security.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>6. User Rights</h3>
+          <p>You have the right to clear your local cache or permanently delete all your data (both local and cloud) at any time using the "Reset All Data" option in Settings, or the account deletion options described below.</p>
+        </div>
+
+        <p class="legal-updated reveal">Last Updated: May 2026</p>
+      </div>
+    </section>
+
+    <section id="terms">
+      <div class="container">
+        <h2 class="section-title reveal">Terms &amp; Conditions</h2>
+        <p class="section-subtitle reveal">Agreement for using Notifiqo — the same terms shown inside the app.</p>
+
+        <div class="legal-block reveal">
+          <h3>1. Acceptance of Terms</h3>
+          <p>By downloading and using Notifiqo, you agree to be bound by these Terms and Conditions. If you do not agree, please uninstall the application.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>2. Service Description</h3>
+          <p>Notifiqo provides a service to capture, store, and synchronize mobile notifications for personal productivity and record-keeping purposes.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>3. Responsible Use</h3>
+          <p>You agree to use Notifiqo only for lawful purposes. You are responsible for any notification data captured and how you choose to share it with others via our collaboration tools.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>4. Account Sharing</h3>
+          <p>The "Looking Up" feature allows you to share your data with other specific users. You are solely responsible for the access you grant and any resulting data exposure.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>5. Limitation of Liability</h3>
+          <p>Notifiqo is provided "as is". We are not responsible for any missing notifications, data loss, or unauthorized access resulting from your use of the application or device security settings.</p>
+        </div>
+
+        <div class="legal-block reveal">
+          <h3>6. Modifications</h3>
+          <p>We reserve the right to modify these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms.</p>
+        </div>
+
+        <p class="legal-updated reveal">© 2026 TStationBD</p>
+      </div>
+    </section>
+
+    <section id="delete-account">
+      <div class="container">
+        <h2 class="section-title reveal">Delete Your Account &amp; Data</h2>
+        <p class="section-subtitle reveal">
+          You're always in control of your data. Here's how to permanently delete your Notifiqo
+          account and everything associated with it.
+        </p>
+
+        <div class="delete-card reveal">
+          <div class="delete-steps">
+            <div class="delete-step">
+              <span class="step-num">1</span>
+              <h4>In-app (fastest)</h4>
+              <p>
+                Open Notifiqo → <strong>Settings</strong> → sign in with the same Google account →
+                tap <code>Delete Account</code> under your profile → confirm. This deletes your
+                cloud data, local data, and your Notifiqo account immediately.
+              </p>
+            </div>
+            <div class="delete-step">
+              <span class="step-num">2</span>
+              <h4>By email request</h4>
+              <p>
+                Don't have the app installed anymore? Email
+                <a href="mailto:support.notifiqo@gmail.com">support.notifiqo@gmail.com</a>
+                from the Google account you used to sign in, with the subject
+                "Delete My Notifiqo Account". We process these requests within 30 days.
+              </p>
+            </div>
+          </div>
+
+          <h4 style="margin-top: 32px;">What gets deleted</h4>
+          <ul class="what-gets-deleted">
+            <li>All notifications, automation rules, and shipment records synced to the cloud (Firebase Firestore)</li>
+            <li>All notification history and settings stored locally on your device</li>
+            <li>Your Google-linked Notifiqo account itself (Firebase Authentication)</li>
+            <li>Any encrypted backups you've stored via Google Drive backup (deleted from your own Drive by removing the backup files, or via Google Drive directly)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <a href="#top" class="brand">
+        <img src="assets/logo.png" alt="Notifiqo logo" width="28" height="28" />
+        <span>Notifiqo</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="https://play.google.com/store/apps/details?id=com.tstationbd.notifiqo" target="_blank" rel="noopener">Download on Google Play</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#terms">Terms &amp; Conditions</a></li>
+        <li><a href="#delete-account">Delete Account</a></li>
+        <li><a href="mailto:support.notifiqo@gmail.com">Contact</a></li>
+      </ul>
+      <p>
+        © 2026 <a href="https://tstationbd.vercel.app" target="_blank" rel="noopener">TStationBD</a>. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
