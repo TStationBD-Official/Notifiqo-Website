@@ -1,4 +1,7 @@
-/* Notifiqo marketing/legal page - self-contained, no external deps */
+/* Notifiqo marketing/legal page - self-contained, no external deps.
+   NOTE: this same CSS is inlined into index.html's <head> for performance
+   (avoids a render-blocking external stylesheet request). Keep both in sync
+   if you edit one - this file is kept as the readable source of truth. */
 
 :root {
   --primary: #6200ee;
